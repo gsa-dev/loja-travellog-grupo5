@@ -1,0 +1,38 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  },
+  "store.custom#clube": {
+    "path": "/clube"
+  },
+  "store.custom#computadores": {
+    "path": "/computadores"
+  },
+  "store.custom#celulares---comunicacao": {
+    "path": "/celulares---comunicacao/"
+  },
+  "store.custom#smartphones": {
+    "path": "/celulares---comunicacao/smartphones"
+  },
+  "store.custom#acessorios": {
+    "path": "/celulares---comunicacao/acessorios"
+  },
+  "store.custom#tv-audio": {
+    "path": "/tv---audio/"
+  },
+  "store.custom#consoles": {
+    "path": "/consoles"
+  },
+  "store.custom#jogos": {
+    "path": "/jogos"
+  },
+  "store.custom#xbox": {
+    "path": "/xbox"
+  }
+}

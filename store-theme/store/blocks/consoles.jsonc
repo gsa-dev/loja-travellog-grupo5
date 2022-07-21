@@ -1,0 +1,22 @@
+{
+  "store.custom#consoles": {
+    "blocks": [
+      "search-result-layout.customQuery#consoles"
+    ]
+  },
+  "search-result-layout.customQuery#consoles": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Console",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop"
+  ]
+  }
+}

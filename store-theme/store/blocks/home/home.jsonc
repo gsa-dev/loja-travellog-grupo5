@@ -1,0 +1,130 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#slide",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "flex-layout.row#deals",
+      "__fold__",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf1",
+      "info-card#home",
+      "flex-layout.row#shelf2",
+      "rich-text#question",
+      "rich-text#link",
+      "newsletter"
+    ]
+  },
+
+  "list-context.image-list#slide": {
+    "children": ["slider-layout#slide-images"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://images2.imgbox.com/8a/7f/JKZs1EQS_o.png",
+          "mobileImage": "https://images2.imgbox.com/f7/cc/JrNK1Eb4_o.png",
+          "link": {
+            "url": "/celulares---comunicacao/smartphones"
+          }
+        },
+        {
+          "image": "https://images2.imgbox.com/7a/63/L3ilaNzw_o.png",
+          "mobileImage": "https://images2.imgbox.com/31/3d/KB2lcpwF_o.png",
+          "link": {
+            "url": "/clube"
+          }
+        },
+        {
+          "image": "https://images2.imgbox.com/6c/be/bh0v2mlC_o.png",
+          "mobileImage": "https://images2.imgbox.com/04/e7/sID1IePZ_o.png",
+          "link": {
+            "url": "/computadores"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#slide-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Confira nossas ofertas imperdíveis!",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf1": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "141",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://images2.imgbox.com/90/20/sl6ZSNAz_o.png",
+      // "headline": "Games",
+      "callToActionText": "Confira",
+      "callToActionUrl": "/games",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#jogos"]
+  },
+  "list-context.product-list#jogos": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "143", //ALTERAR PARA COLEÇÃO DE JOGOS
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "store.custom#celulares---comunicacao": {
+      "blocks": [
+        "image#celularbanner",
+        // "flex-layout.row#smartphones",
+        "search-result-layout.customQuery#celulares---comunicacao"
+      ]
+   },
+   "image#celularbanner": {
+    "props": {
+      "src": "https://images2.imgbox.com/04/12/ys26XRbC_o.jpg",
+      "minWidth": "100%"
+    }
+   },
+   "search-result-layout.customQuery#celulares---comunicacao": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop"
+  ]
+  }
+  }

@@ -1,0 +1,22 @@
+{
+  "store.custom#acessorios": {
+    "blocks": [
+      "search-result-layout.customQuery#acessorios"
+    ]
+  },
+  "search-result-layout.customQuery#acessorios": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "celular",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop"
+  ]
+  }
+}

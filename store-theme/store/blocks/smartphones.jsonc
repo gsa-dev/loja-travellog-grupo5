@@ -1,0 +1,32 @@
+{
+  "store.custom#smartphones": {
+      "blocks": [
+        "image#smartphonebanner",
+        // "flex-layout.row#smartphones",
+        "search-result-layout.customQuery#smartphone"
+      ]
+   },
+   "image#smartphonebanner": {
+    "props": {
+      "src": "https://images2.imgbox.com/3a/3a/zuQgjke2_o.jpg",
+      "minWidth": "100%"
+    }
+   },
+   "search-result-layout.customQuery#smartphone": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop"
+  ]
+  }
+
+
+  }

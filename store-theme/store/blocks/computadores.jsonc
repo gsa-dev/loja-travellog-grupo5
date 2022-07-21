@@ -1,0 +1,29 @@
+{
+  "store.custom#computadores": {
+    "blocks": [
+      "image#computadoresbanner",
+      "search-result-layout.customQuery#computadores"
+    ]
+  },
+  "image#computadoresbanner": {
+    "props": {
+      "src": "https://images2.imgbox.com/e5/2a/QG7MzhwA_o.jpg",
+      "minWidth": "100%"
+    }
+  },
+  "search-result-layout.customQuery#computadores": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "notebook",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop"
+  ]
+  }
+}

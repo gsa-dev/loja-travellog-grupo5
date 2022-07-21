@@ -1,0 +1,43 @@
+{
+  "store.custom#clube": {
+      "blocks": [
+        "flex-layout.row#clube"
+      ]
+   },
+   "flex-layout.row#clube": {
+    "children": [
+      "image#clube",
+      "flex-layout.col#text-clube"
+    ]
+   },
+   "flex-layout.col#text-clube": {
+    "children": [
+      "rich-text#clube-title",
+      "rich-text#clube-content"
+    ],
+        "props": {
+      "preventVerticalStretch": true
+    }
+  },
+ "rich-text#clube-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text":
+      "# Clube Musth"
+    }
+  },
+  "rich-text#clube-content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "O **Clube Musth** é uma plataforma de benefícios desenvolvida para todas as pessoas que queiram se relacionar com a nossa loja virtual.<br/><br/> Participantes do **Clube Musth** acumulam pontos - os ***Elefantinhos*** - a cada compra realizada. Os Elefantinhos acumulados através de suas compras poderão ser trocados nas compras online da **Musth**, sem a necessidade do uso de cartão físico. Para resgatar é necessário identificar-se pelo CPF, ter o cadastro atualizado e estar logado na plataforma.<br/><br/> **Como funciona** <br/><br/> Cada R$1,00 gasto garante 1 elefantinho de recompensa, adquirido pelas compras na **Musth**.<br/><br/> E a cada 100 elefantinhos equivalem a R$3,50 de desconto que podem ser utilizados nas suas compras online."
+    }
+  },
+  "image#clube": {
+    "props": {
+      "src": "https://images2.imgbox.com/5e/5a/NqSCkxVI_o.jpg",
+      "maxHeight": "600px"
+    }
+  }
+ }

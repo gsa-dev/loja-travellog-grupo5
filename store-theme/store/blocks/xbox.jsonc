@@ -1,0 +1,22 @@
+{
+  "store.custom#xbox": {
+    "blocks": [
+      "search-result-layout.customQuery#xbox"
+    ]
+  },
+  "search-result-layout.customQuery#xbox": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Xbox",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop"
+  ]
+  }
+}

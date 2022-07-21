@@ -1,0 +1,268 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-computadores",
+      "menu-item#category-celulares",
+      "menu-item#category-tv-audio",
+      "menu-item#category-games",
+      "menu-item#category-clube"
+    ]
+  },
+  "menu-item#category-computadores": {
+    "props": {
+      "id": "menu-item-category-computadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computadores/",
+        "noFollow": false,
+        "tagTitle": "Computadores & Notebooks",
+        "text": "Computadores & Notebooks"
+      }
+    }
+  },
+  "menu-item#category-celulares": {
+    "props": {
+      "id": "menu-item-category-celulares",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/celulares---comunicacao/",
+        "noFollow": false,
+        "tagTitle": "Celulares e Comunicação",
+        "text": "Celulares e Comunicação"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-celulares"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-celulares": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-celulares"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-celulares": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-celulares-smartphones",
+      "menu-item#category-celulares-marcas",
+      "menu-item#category-celulares-acessorios"
+    ]
+  },
+  "menu-item#category-celulares-smartphones": {
+    "props": {
+      "id": "menu-item-category-celulares-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/celulares---comunicacao/smartphones/",
+        "noFollow": false,
+        "tagTitle": "Smartphones",
+        "text": "Smartphones"
+      }
+    }
+  },
+  "menu-item#category-celulares-marcas": {
+    "props": {
+      "id": "menu-item-category-celulares-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/celulares---comunicacao/",
+        "noFollow": false,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      }
+    }
+  },
+  "menu-item#category-celulares-acessorios": {
+    "props": {
+      "id": "menu-item-category-celulares-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/celulares---comunicacao/acessorios/",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+  "menu-item#category-tv-audio": {
+    "props": {
+      "id": "menu-item-category-tv-audio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tv---audio/",
+        "noFollow": false,
+        "tagTitle": "TV & Áudio",
+        "text": "TV & Áudio"
+      }
+    }
+  },
+  "menu-item#category-clube": {
+    "props": {
+      "id": "menu-item-category-clube",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clube/",
+        "noFollow": false,
+        "tagTitle": "Clube Musth",
+        "text": "Clube Musth"
+      }
+    }
+  },
+  "menu-item#category-games": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Games",
+        "text": "Games"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#games"
+    ]
+  },
+  "vtex.menu@2.x:submenu#games": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-games"
+    ]
+  },
+  "flex-layout.row#menu-games": {
+    "children": [
+      "flex-layout.col#menu-games-1",
+      "flex-layout.col#menu-games-2"
+    ]
+  },
+  "flex-layout.col#menu-games-1": {
+    "children": [
+      "vtex.menu@2.x:menu#games"
+    ]
+  },
+  "flex-layout.col#menu-games-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#games": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#consoles",
+      "menu-item#jogos",
+      "menu-item#playstation",
+      "menu-item#xbox"
+    ]
+  },
+  "menu-item#consoles": {
+    "props": {
+      "id": "menu-item-consoles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/consoles",
+        "noFollow": true,
+        "tagTitle": "Consoles",
+        "text": "Consoles"
+      }
+    }
+  },
+  "menu-item#jogos": {
+    "props": {
+      "id": "menu-item-jogos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jogos",
+        "noFollow": true,
+        "tagTitle": "Jogos",
+        "text": "Jogos"
+      }
+    }
+  },
+  "menu-item#playstation": {
+    "props": {
+      "id": "menu-item-playstation",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/playstation",
+        "noFollow": true,
+        "tagTitle": "Playstation 5",
+        "text": "Playstation 5"
+      }
+    }
+  },
+  "menu-item#xbox": {
+    "props": {
+      "id": "menu-item-xbox",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/xbox",
+        "noFollow": true,
+        "tagTitle": "Xbox Series",
+        "text": "Xbox Series"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}

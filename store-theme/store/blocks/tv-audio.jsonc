@@ -1,0 +1,30 @@
+{
+  "store.custom#tv-audio": {
+    "blocks": [
+      "image#tv-audio",
+      // "flex-layout.row#smartphones",
+      "search-result-layout.customQuery#tv-audio"
+    ]
+},
+"image#tv-audio": {
+  "props": {
+    "src": "https://images2.imgbox.com/be/cd/1phzIbk8_o.jpg",
+    "minWidth": "100%"
+  }
+ },
+ "search-result-layout.customQuery#tv-audio": {
+  "props": {
+    "querySchema": {
+      "orderByField": "OrderByReleaseDateDESC",
+      "hideUnavailableItems": true,
+      "maxItemsPerPage": 8,
+      "queryField": "TV",
+      "mapField": "ft",
+      "skusFilter": "ALL_AVAILABLE"
+    }
+  },
+  "blocks": [
+    "search-result-layout.desktop"
+]
+}
+}

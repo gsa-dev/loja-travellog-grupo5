@@ -1,0 +1,22 @@
+{
+  "store.custom#jogos": {
+    "blocks": [
+      "search-result-layout.customQuery#jogos"
+    ]
+  },
+  "search-result-layout.customQuery#jogos": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Jogo",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop"
+  ]
+  }
+}
